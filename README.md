@@ -13,11 +13,11 @@ Chieh-Chi Chen, Marissa Miller, Shane St. Luce
 - Using Naïve Bayes to train and test the data
 - Creating Chou Liu Trees model the attribute dependencies
 Training Set
-2016 New Jersey
-247,584 samples
+- 2016 New Jersey
+- 247,584 samples
 Testing Set
-March 2017 New Jersey
-12,201 samples
+- March 2017 New Jersey
+- 12,201 samples
 
 ### Raw Data Attributes
 - Trip Duration (seconds)
@@ -55,11 +55,8 @@ March 2017 New Jersey
 ### Naïve Bayes and Chou Liu Trees gave supporting results
 
 ### Predict missing attributes for Customer data
-Use Gaussian Distribution
-“Hour”
-“Age”
-“Duration”
+Use Gaussian Distribution on “Hour”, “Age”, and “Duration”
 
-## Want to learn more? Visit:
+## Want to learn more? Visit the source of the Citi Bike raw data:
 https://www.citibikenyc.com/system-data
 
