@@ -1,10 +1,10 @@
 # CitiBike_DataAnalysis
-##Citi Bike New Jersey Bike Rental Program
+## Citi Bike New Jersey Bike Rental Program
 Chieh-Chi Chen
 Marissa Miller
 Shane St. Luce
 
-##Dataset Description
+## Dataset Description
 “Where do Citi Bikers ride?
 When do they ride?
 How far do they go?
@@ -14,7 +14,7 @@ What days of the week are most rides taken on?
 We've heard all of these questions and more from you, and we're happy to provide the data to help you discover the answers to these questions and more.”
 - from https://www.citibikenyc.com/system-data
 
-##Our Approach
+## Our Approach
 Using Naïve Bayes to train and test the data
 Creating Chou Liu Trees model the attribute dependencies
 Training Set
@@ -24,7 +24,7 @@ Testing Set
 March 2017 New Jersey
 12,201 samples
 
-##Raw Data Attributes
+## Raw Data Attributes
 Trip Duration (seconds)
 Start Time and Date
 Stop Time and Date
@@ -42,7 +42,7 @@ Gender
 2 – Female
 Year of Birth
 
-##Data Attributes used for Analysis
+## Data Attributes used for Analysis
 Trip Duration 
 Hour
 Hour bucket bike is returned to a station
@@ -54,23 +54,23 @@ Age
 5 year buckets based on year of birth
 
 
-##Result
-##Naïve Bayes: Classifications
+## Result
+### Naïve Bayes: Classifications
 Start Station: 31.45% (34 stations)
 End Station: 31.42% (34 stations)
 Age: 29.65% (21 different age assignments)
 Gender: 79.13% (3 different assignments)
 
-##Chou Liu Tree shows that: Hour, Gender, and UserType are important attributes
+### Chou Liu Tree shows that: Hour, Gender, and UserType are important attributes
 
-##Naïve Bayes and Chou Liu Trees gave supporting results
+### Naïve Bayes and Chou Liu Trees gave supporting results
 
-##Predict missing attributes for Customer data
+### Predict missing attributes for Customer data
 Use Gaussian Distribution
 “Hour”
 “Age”
 “Duration”
 
-##Want to learn more? Visit:
+## Want to learn more? Visit:
 https://www.citibikenyc.com/system-data
 
