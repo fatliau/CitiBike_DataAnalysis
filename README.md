@@ -1,8 +1,6 @@
 # CitiBike_DataAnalysis
 ## Citi Bike New Jersey Bike Rental Program
-Chieh-Chi Chen
-Marissa Miller
-Shane St. Luce
+Chieh-Chi Chen, Marissa Miller, Shane St. Luce
 
 ## Dataset Description
 “Where do Citi Bikers ride?
@@ -14,7 +12,7 @@ What days of the week are most rides taken on?
 We've heard all of these questions and more from you, and we're happy to provide the data to help you discover the answers to these questions and more.”
 - from https://www.citibikenyc.com/system-data
 
-## Our Approach
+### Our Approach
 Using Naïve Bayes to train and test the data
 Creating Chou Liu Trees model the attribute dependencies
 Training Set
@@ -24,7 +22,7 @@ Testing Set
 March 2017 New Jersey
 12,201 samples
 
-## Raw Data Attributes
+### Raw Data Attributes
 Trip Duration (seconds)
 Start Time and Date
 Stop Time and Date
@@ -42,7 +40,7 @@ Gender
 2 – Female
 Year of Birth
 
-## Data Attributes used for Analysis
+### Data Attributes used for Analysis
 Trip Duration 
 Hour
 Hour bucket bike is returned to a station
